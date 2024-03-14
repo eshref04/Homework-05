@@ -1,0 +1,387 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #2c3e50;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+}
+
+.header_right_menu {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
+
+.header_right_menu a {
+  color: white;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.header__left a {
+  color: white;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.header_right_menu a:hover {
+  color: #1abc9c;
+}
+
+.main__heading {
+  width: 100%;
+  height: 500px;
+  background-color: #1abc9c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main_heading_image img {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 30px;
+}
+
+.main_heading_head_text {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.main_heading_icon {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.right,
+.left {
+  border-radius: 4px;
+  height: 4px;
+  width: 100px;
+  background-color: white;
+}
+
+.main_heading_list ul {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #2c3e50;
+  width: 100%;
+  height: 600px;
+}
+
+.portfolio_head_text {
+  font-size: 20px;
+  margin: 20px 0px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.portfolio__icon {
+  display: flex;
+  font-size: 30px;
+  gap: 14px;
+}
+
+.icon__left,
+.icon__right {
+  border-radius: 4px;
+  height: 4px;
+  width: 100px;
+  background-color: #2c3e50;
+  margin-top: 16px;
+}
+
+.portfolio__image__container {
+  width: 50%;
+}
+
+.portfolio__start,
+.portfolio__end {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.portfolio__start img,
+.portfolio__end img {
+  width: 220px;
+  height: 140px;
+  border-radius: 4px;
+}
+
+.about {
+  width: 100%;
+  height: 330px;
+  background-color: #1abc9c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.about__head__text {
+  font-size: 20px;
+  margin: 20px 0px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.about__icon {
+  display: flex;
+  font-size: 30px;
+  gap: 14px;
+}
+
+.about__icon__left,
+.about__icon__right {
+  border-radius: 4px;
+  height: 4px;
+  width: 100px;
+  background-color: white;
+  margin-top: 16px;
+}
+
+.about__end__text {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  gap: 26px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.about__end__text p {
+  margin-top: 20px;
+}
+
+.about__button a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border: 2px solid white;
+  padding: 14px;
+  border-radius: 6px;
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.about__button a:hover {
+  background-color: white;
+  color: black;
+}
+
+.contact {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__head__text {
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 20px;
+  color: #2c3e50;
+}
+
+.contact__icon {
+  display: flex;
+  font-size: 30px;
+  gap: 14px;
+  margin-top: 18px;
+  color: #2c3e50;
+}
+
+.contact__icon__left,
+.contact__icon__right {
+  border-radius: 4px;
+  height: 4px;
+  width: 50px;
+  background-color: #2c3e50;
+  margin-top: 15px;
+}
+
+.contact__input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 30%;
+}
+
+.contact__input input,
+textarea {
+  border: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  margin: 16px 0px;
+}
+
+.contact__input textarea {
+  width: 100%;
+  height: 70px;
+}
+
+.contact__input button {
+  width: 16%;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+.footer {
+  background-color: #2c3e50;
+  width: 100%;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.footer__container {
+  width: 50%;
+}
+
+.footer__above {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 14px;
+  align-items: center;
+}
+
+.footer__above__right {
+  margin-right: 40px;
+}
+
+.footer__above__left {
+  margin-left: 24px;
+}
+
+.footer__down {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 11px;
+  align-items: center;
+}
+
+.footer__down__start__text {
+  text-align: center;
+}
+
+.footer__icons {
+  display: flex;
+  font-size: 12px;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  margin-left: 42px;
+  margin-top: 10px;
+}
+
+.facebook,
+.twitter,
+.linkedin,
+.ball {
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 24px;
+  height: 24px;
+  padding: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__icons div:hover {
+  background-color: white;
+  color: black;
+}
+
+.footer__down__end__text {
+  text-align: center;
+}
+
+.footer__down__end__text a {
+  color: #1abc9c;
+}
+
+.foot {
+  color: white;
+  background-color: #1a252f;
+  text-align: center;
+  padding: 12px;
+  font-size: 10px;
+}
